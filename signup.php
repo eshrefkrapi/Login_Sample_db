@@ -74,8 +74,8 @@ session_start();
 		<form method="post">
 			<div style="font-size: 20px;margin: 10px;color: white;">Signup</div>
 
-			<input id="text" type="text" name="name" autocomplete="off" required><br><br>
-			<input id="text" type="password" name="password"  required><br><br>
+			<input id="text" type="text" name="name" autocomplete="off" required ><br><br>
+			<input id="text" type="password" name="password"  required pattern=".{8,}"><br><br>
 
 			<input id="button" type="submit" value="Signup" style="margin-left:7em"><br><br>
 
